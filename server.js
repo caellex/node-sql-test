@@ -1,8 +1,5 @@
 const sql = require("msnodesqlv8");
-
 const http = require('http');
-const fs = require('fs')
-
 const connectionString = "server=(localdb)\\Mock;Database=FullTest;Trusted_Connection=Yes;Driver={ODBC Driver 17 for SQL Server};";
 
 const server = http.createServer((req, res) => {
